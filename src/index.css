@@ -1,0 +1,59 @@
+/* Center the entire content on the page */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: pink;
+}
+
+/* General heading styling */
+h1 {
+  color: #b81515;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #268d34;
+  margin-bottom: 10px;
+}
+
+/* Style for product items */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li button {
+  flex-shrink: 0; /* Prevents the button from shrinking */
+  width: 120px; /* Ensures all buttons are the same width */
+  text-align: center;
+}
+
+/* Style for button spacing */
+button {
+  margin-left: 10px;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
